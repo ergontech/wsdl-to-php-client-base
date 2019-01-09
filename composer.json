@@ -1,0 +1,21 @@
+{
+  "name": "ergontech/wsdl-to-php-client-base",
+  "description": "A base class for WsdlToPhp that adds NTLM authentication",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ergontech/lfi-soap"
+    }
+  ],
+  "require": {
+    "ergontech/ergontech-soap": "dev-master",
+    "wsdltophp/packagebase": "^2.0"
+  },
+  "autoload" : {
+    "psr-4": {
+      "ErgonTech\\WsdlToPhp\\": "src/"
+    }
+  }
+}
