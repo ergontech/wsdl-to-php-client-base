@@ -14,7 +14,7 @@ class SoapClientBase extends AbstractSoapClientBase
 {
 
     const WSDL_NTLM_USERNAME = 'wsdl_ntlm_username';
-    const WSDL_NTLM_PASSORD = 'wsdl_ntlm_passwword';
+    const WSDL_NTLM_PASSORD = 'wsdl_ntlm_password';
 
     /**
      * @var string
