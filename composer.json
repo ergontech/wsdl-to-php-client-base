@@ -1,7 +1,6 @@
 {
   "name": "ergontech/wsdl-to-php-client-base",
   "description": "A base class for WsdlToPhp that adds NTLM authentication",
-  "minimum-stability": "dev",
   "license": "proprietary",
   "repositories": [
     {
@@ -10,7 +9,8 @@
     }
   ],
   "require": {
-    "ergontech/ergontech-soap": "dev-master",
+    "php" : ">=5.4.0",
+    "ergontech/ergontech-soap": "^1.0",
     "wsdltophp/packagebase": "^2.0"
   },
   "autoload" : {
