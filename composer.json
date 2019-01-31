@@ -10,7 +10,7 @@
   ],
   "require": {
     "php" : ">=5.4.0",
-    "ergontech/ergontech-soap": "^1.0",
+    "ergontech/ergontech-soap": "1.1",
     "wsdltophp/packagebase": "^2.0"
   },
   "autoload" : {
